@@ -6,7 +6,7 @@ hash_tag_comment_flag = False
 
 
 slash_comments = re.compile('(?:/\\*(?:[^*]|(?:\\*+[^*/]))*\\*+/)|(?://.*)')
-hash_tag_comment = re.compile('(?:#\\*(?:[^*]|(?:\\*+[^*#]))*\\*+/)|(?:#.*)')
+hash_tag_comment = re.compile('(?:#\\*(?:[^*]|(?:\\*+[^*#]))*)|(?:#.*)')
 todo = re.compile('(?:/\\*(?:[^*]|(?:\\*+[^*/]))*\\*+/)|(?://.TODO.*)|(?:#\\*(?:[^*]|(?:\\*+[^*#]))*\\*+/)|(?:#*TODO.*)|(?:\\*.TODO.*)')
 slash_block_comment = re.compile('(?:/\\*)|(?:\\*)|(?:\\/\\*)')
 end_slash_block_comment = re.compile('(?:\\/\\*)')
