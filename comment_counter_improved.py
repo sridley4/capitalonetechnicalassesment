@@ -7,7 +7,7 @@ HASH_TAG_COMMENTS_REGEX = re.compile('(?:#\\*(?:[^*]|(?:\\*+[^*#]))*)|(?:#.*)')
 TODO_REGEX = re.compile('(?:/\\*(?:[^*]|(?:\\*+[^*/]))*\\*+/)|(?://.TODO.*)|(?:#\\*(?:[^*]|(?:\\*+[^*#]))*\\*+/)|(?:#*TODO.*)|(?:\\*.TODO.*)')
 SLASH_BLOCK_COMMENT_REGEX = re.compile('(?:/\\*)|(?:\\*)|(?:\\/\\*)')
 END_SLASH_BLOCK_COMMENT_REGEX = re.compile('(?:\\*\\/)')
-FILE_EXTENSION_REGEX = re.compile('([a-zA-Z0-9\s_\\.\-\(\):])+(\..*[a-zA-Z0-9])$')
+FILE_EXTENSION_REGEX = re.compile('([a-zA-Z0-9\s_\\.\-\(\):])+(\..*[a-zA-Z])$')
 
 
 
